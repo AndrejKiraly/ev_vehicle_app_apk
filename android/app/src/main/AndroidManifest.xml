@@ -28,6 +28,15 @@
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
         <meta-data
             android:name="flutterEmbedding"
-            android:value="2" />
+            android:value="2"/>
+        <meta-data android:name="com.google.android.geo.API_KEY"
+                android:value="AIzaSyAW_2KR3-1L7jEVn2scm1l9oWchRpfUxxw"/>
     </application>
+     <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="google.navigation" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent>
+    </queries>
 </manifest>
